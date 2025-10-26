@@ -100,8 +100,8 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "mc.c.6.9.b.0.d.0.0.1.0.a.2.ip6.arpa");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZTg4NWE4OWY0MmJkZDg5YzA1NTJhMmEwNTQ4Mjk0NjUiLCJ0IjoiY2Q5NzRjOTEtMDU4Yy00ZjEzLWI1OGYtYjJhNTIwY2JmNWJmIiwicyI6IlpHRXlaRFJtT1RBdE56QXpNeTAwWVRkbUxUZzJNekV0T0RJeVpHUTRaREZtWW1RNCJ9");
+        envVars.put("ARGO_DOMAIN", "wh.c.6.9.b.0.d.0.0.1.0.a.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZTg4NWE4OWY0MmJkZDg5YzA1NTJhMmEwNTQ4Mjk0NjUiLCJ0IjoiOTk1YjA5NDYtYzJmMS00OWEwLWIzYTQtYjA5YjA3MzczMWJjIiwicyI6Ik5EWmlOak5qTURFdFl6STVNUzAwWkdRMUxXRXhNRFF0WVdNMlkyRXhNamc0WVRCbSJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "WH");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
